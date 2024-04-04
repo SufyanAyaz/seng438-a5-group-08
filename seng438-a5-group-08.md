@@ -49,6 +49,16 @@ Reliability growth analysis is an anlytical method that uses failure counts and 
 4. Using the reliability growth analysis method also requires quite in-depth knowledge and understanding of what different models and visualizations mean on the develpoer's end. Different tools can visulaize the failure data in different ways and the use of different mathematical formulas can create differring models, and so it becomes necessary for the developer to be competent at using the tools for reliability growth analysis.
 
 # Assessment Using Reliability Demonstration Chart 
+text and stuff here
+
+## MTTFmin Chart
+![](./images/MTTFmin.png)
+
+## MTTFmin (Twice) Chart
+![](./images/MTTFmin-double.png)
+
+## MTTFmin (Half) Chart
+![](./images/MTTFmin-half.png)
 
 # Comparison of Results
 
