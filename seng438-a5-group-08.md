@@ -31,6 +31,16 @@ Using the formulas, we are able to calculate the failure rate of the system used
 ## Discussion on the Advantages and Disadvantages of Reliability Growth Analysis
 
 # Assessment Using Reliability Demonstration Chart 
+text and stuff here
+
+## MTTFmin Chart
+![](./images/MTTFmin.png)
+
+## MTTFmin (Twice) Chart
+![](./images/MTTF-double.png)
+
+## MTTFmin (Half) Chart
+![](./images/MTTF-half.png)
 
 # Comparison of Results
 
