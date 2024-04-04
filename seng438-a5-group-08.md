@@ -37,10 +37,10 @@ text and stuff here
 ![](./images/MTTFmin.png)
 
 ## MTTFmin (Twice) Chart
-![](./images/MTTF-double.png)
+![](./images/MTTFmin-double.png)
 
 ## MTTFmin (Half) Chart
-![](./images/MTTF-half.png)
+![](./images/MTTFmin-half.png)
 
 # Comparison of Results
 
