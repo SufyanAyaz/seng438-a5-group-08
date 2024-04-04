@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group: 08      |
+|-----------------|
+| Student 1: Sufyan Ayaz                |   
+| Student 2: Muhammad Haris Kashif              |   
+| Student 3: Faisal Islam               |   
+| Student 4: Taha Khan                |
 
 # Introduction
 
