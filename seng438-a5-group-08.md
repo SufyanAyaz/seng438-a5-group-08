@@ -10,8 +10,7 @@
 | Student 4: Taha Khan                |
 
 # Introduction
-
-# 
+In this lab, we were given the task of using different reliability tools to observe and analyze test and failure data. We did so using two different reliability assessment techniques: Reliability Growth Testing and Reliability Demonstration Chart (RDC). We opted to use the **C-SFRAT** tool for Reliability Growth Testing and the **RDC11 Excel Worksheet** for the Reliability Demonstration Chart to analyze the data and create plots. For both Reliability Growth Testing and for the Reliability Demonstration Chart we used the data from **Failure Report 9**. The purpose of this lab is to introduce us to integration test data analysis using different reliability assessment tools and techniques, and comparing between them. 
 
 # Assessment Using Reliability Growth Testing 
 
@@ -49,7 +48,14 @@ Reliability growth analysis is an anlytical method that uses failure counts and 
 4. Using the reliability growth analysis method also requires quite in-depth knowledge and understanding of what different models and visualizations mean on the develpoer's end. Different tools can visulaize the failure data in different ways and the use of different mathematical formulas can create differring models, and so it becomes necessary for the developer to be competent at using the tools for reliability growth analysis.
 
 # Assessment Using Reliability Demonstration Chart 
-text and stuff here
+For this section of the lab, we decided to use the RDC-11 Excel Macro Worksheet. For our data we chose **Failure Report 9**. 
+
+The original dataset had 30 rows of logged failures, however the sheet only permitted 16 rows. To deal with our data (the Cumulative Time column), we first converted it to seconds. The last failure occurs at 3150s (52.5 mins) so we divided this by 16 and rounded up to 200s to establish our intervals, and we assumed the execution end time of the SUT to be 3200s, as we don't know for sure if the SUT ended execution at 3150s or not. We manually calculated the Cumulative Failure Count (CFC) at each interval to populate this part of the data required for the RDC, and as mentioned previously our Input Event When Observed is just each 200s interval up to 3200s. 
+
+To calculate our MTTF, we used the formula `Total Time / Number of Failures` which in our case yielded an MTTF of `3200 \ 30 = 106.66...`. After inputting this MTTF value, we experimented with the RDC and learned how to use it until we could find our MTTFmin value, which we observed to be 120. 
+
+**MTTF:** *106.6 seconds / failure*\
+**MTTFmin:** *120 seconds / failure*
 
 ## MTTFmin Chart
 ![](./images/MTTFmin.png)
@@ -59,6 +65,16 @@ text and stuff here
 
 ## MTTFmin (Half) Chart
 ![](./images/MTTFmin-half.png)
+
+## Advantages of RDC
+- Easy to visualize and interpret data
+- Easy method to assess the SUT's reliability
+- Intuitive to use and observe reliability trends
+
+## Disadvantages of RDC
+- Time consuming to use, as it requires a lot of data conversion and interpretation before the data is able to provide meaningful insights using the tool
+- Imprecise, only gives a general idea of patterns regarding reliability
+- Calculating the MTTF and MTTFmin can get confusing since it has to be done manually and experimentally. It requires manual calculations along with an analysis of the data using the calculated values, and even then it is unclear what would be considered "acceptable" 
 
 # Comparison of Results
 
