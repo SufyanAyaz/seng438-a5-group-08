@@ -10,8 +10,7 @@
 | Student 4: Taha Khan                |
 
 # Introduction
-
-# 
+In this lab, we were given the task of using different reliability tools to observe and analyze test and failure data. We did so using two different reliability assessment techniques: Reliability Growth Testing and Reliability Demonstration Chart (RDC). We opted to use the **placeholder** tool for Reliability Growth Testing and the **RDC11 Excel Worksheet** for the Reliability Demonstration Chart to analyze the data and create plots. For Reliability Growth Testing we used the data from **Placeholder** and for the Reliability Demonstartion Chart we used the data from **Failure Report 9**. The purpose of this lab is to introduce us to integration test data analysis using different reliability assessment tools and techniques, and comparing between them. 
 
 # Assessment Using Reliability Growth Testing 
 
