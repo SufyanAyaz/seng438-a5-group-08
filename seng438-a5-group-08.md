@@ -66,12 +66,12 @@ To calculate our MTTF, we used the formula `Total Time / Number of Failures` whi
 ## MTTFmin (Half) Chart
 ![](./images/MTTFmin-half.png)
 
-## Advantages of RDC
+### Advantages of RDC
 - Easy to visualize and interpret data
 - Easy method to assess the SUT's reliability
 - Intuitive to use and observe reliability trends
 
-## Disadvantages of RDC
+### Disadvantages of RDC
 - Time consuming to use, as it requires a lot of data conversion and interpretation before the data is able to provide meaningful insights using the tool
 - Imprecise, only gives a general idea of patterns regarding reliability
 - Calculating the MTTF and MTTFmin can get confusing since it has to be done manually and experimentally. It requires manual calculations along with an analysis of the data using the calculated values, and even then it is unclear what would be considered "acceptable" 
