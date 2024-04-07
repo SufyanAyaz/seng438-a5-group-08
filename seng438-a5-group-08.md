@@ -77,6 +77,11 @@ To calculate our MTTF, we used the formula `Total Time / Number of Failures` whi
 - Calculating the MTTF and MTTFmin can get confusing since it has to be done manually and experimentally. It requires manual calculations along with an analysis of the data using the calculated values, and even then it is unclear what would be considered "acceptable" 
 
 # Comparison of Results
+Reliability Growth Testing provided insights into the Mean Time to Failure (MTTF) of the system, calculated at approximately 1.75 minutes per failure (106.6 seconds per failure). This shows the current performance of the system in terms of failure frequency and sets a baseline for comparison against target failure rates. The comparison with target failure rates suggests that if the target rate is higher than the calculated MTTF, the system may be considered reliable without additional testing or analysis. However, if the target rate is lower, it suggests that more resources should be used to reduce the failure rate and increase system reliability.
+
+The Reliability Demonstration Chart offered a specific Minimum MTTF (MTTFmin) value of 120 seconds per failure. Comparing this MTTFmin with the MTTF derived from Reliability Growth Testing revealed that the system's current performance falls short of the minimum acceptable reliability level.
+
+Overall, the combined use of Reliability Growth Testing and the Reliability Demonstration Chart allows for a detailed assessment of the system's reliability. While Reliability Growth Testing provides insights into future performance trends and potential improvements over time, the Reliability Demonstration Chart offers a more immediate assessment of whether the system meets specific reliability targets. So ideally, the SUT's reliability and readiness for release requires consideration of predictive modeling, actual failure rates, target failure rates, and good reliability benchmarks.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
