@@ -14,6 +14,18 @@ In this lab, we were given the task of using different reliability tools to obse
 
 # Assessment Using Reliability Growth Testing 
 
+## Original dataset
+
+
+## All models and covariate
+
+## Result of model comparison
+
+## Range analysis
+
+## Plots for failure rate and reliability of the SUT for the test data provided
+
+
 ## Discussion on Decision Making Given A Target Failure Rate
 A failure rate refers to the frequency of failures occurring within a time frame, therefore, a target failure rate is the failure rate that is expected to be achieved by the SUT in order to demonstrate an acceptable enough level of reliability.
 
